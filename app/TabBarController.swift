@@ -26,7 +26,7 @@ class TabBarController: UITabBarController, GADBannerViewDelegate  {
             
             self.setDeviceToken()
         }
-        
+        //
         NotificationCenter.default.addObserver(self, selector: #selector(updateBadges), name: NSNotification.Name(rawValue: "updateBadges"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(updateAdmobBanner), name: NSNotification.Name(rawValue: "updateAdmobBanner"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(hideAdmobBanner), name: NSNotification.Name(rawValue: "hideAdmobBanner"), object: nil)
