@@ -16,7 +16,7 @@ class SelectGiftCell: UICollectionViewCell {
     override func prepareForReuse() {
         
         // Reset the cell for new row's data
-        
+        //
         pictureView.image = UIImage(named: "app_logo")
         
         super.prepareForReuse()

@@ -17,7 +17,7 @@ class GuestCell: UITableViewCell {
     override func prepareForReuse() {
         
         // Reset the cell for new row's data
-        
+        //
         photoView.image = UIImage(named: "ic_profile_default_photo")
         
         super.prepareForReuse()

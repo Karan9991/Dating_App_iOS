@@ -47,7 +47,7 @@ class SelectGiftController: UIViewController, UICollectionViewDelegateFlowLayout
         
         getData()
     }
-    
+    //
     @IBAction func cancelTap(_ sender: Any) {
         
         self.dismiss(animated: true, completion: {})
